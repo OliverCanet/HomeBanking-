@@ -1,0 +1,894 @@
+*{
+    
+    font-family: 'Geo', sans-serif!important;
+    font-size: large;
+    box-sizing: border-box;
+}
+.bgColor1{
+    background-color: rgb(202, 228, 219)!important;
+}
+.bgColor2{
+    background-color: rgb(246, 246, 246)!important;
+}
+.bgColor3{
+    background-color: rgb(44, 51, 51)!important;
+}
+.bgColor4{
+    background-color: rgb(44, 51, 51)!important;
+}
+.bgColor5{
+    background-color: rgb(44, 51, 51)!important;
+}
+.bgColor6{
+    background-color: rgb(165, 201, 202)!important;
+}
+.bgColor7{
+    background-color: rgb(165, 201, 202);
+}
+
+
+.textColor1{
+    color: rgb(44, 51, 51);
+}
+.textColor2{
+    color: rgb(165, 201, 202);
+}
+
+.bgImage1{
+    background-image: url(./img/bancoCortado.jpg);
+    background-size: cover;
+    background-position: 50% 0%;
+    height: 70vh;
+}
+.bgImage2{
+    background-image: url(./img/nySkyline.jpg);
+    background-size: cover;
+    background-position: 50% 0%;
+    height: 70vh;
+}
+.bgImageSmall{
+    background-image: url(./img/sky.jpg);
+    background-size: cover;
+    background-position: 50% 80%;
+    height: 40vh;
+
+}
+.bgImage3{
+    background-image: url(./img/landScape.jpg);
+    background-size: cover;
+    background-position: 50% 0%;
+    height: 70vh;
+
+}
+.bgImage4{
+    background-image: url(./img/winter.jpg);
+    background-size: cover;
+    background-position: 50% 0%;
+    height: 70vh;
+
+}
+.bgImage5{
+    background-image: url(./img/photo1.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 70vh;
+
+}
+.bgImage6{
+    background-image: url(./img/photo2.jpg);
+    background-size: cover;
+    background-position: 0% 80%;
+    height: 80vh;
+}
+.bgImage7{
+    background-image: url(./img/photoRome.jpg);
+    background-size: cover;
+    background-position: 0% 0%;
+    height: 80vh;
+
+}
+.bgImageCS{
+    background-image: url(./img/customerSupport.jpg);
+    width: 25rem;
+    height: 30rem;
+    background-position: 100% 100%;
+    background-size: cover;
+
+}
+.border3{
+    border-bottom: 75;
+    border-color: rgb(0, 48, 63);
+}
+.searchMedidas{
+    width: 40rem!important;
+}
+.subMedidas{
+    width: 10rem!important;
+}
+.mainMinHeight{
+    min-height: 100vh;
+}
+.mainMinHeightAccounts{
+    min-height: 90vh;
+}
+.mainMinHeightIndex{
+    min-height: 400vh;
+}
+.fontSizeBig{
+    font-size: 5rem;
+}
+.titleMindHub{
+    background-color: rgb(44, 51, 51);
+    color: rgb(165, 201, 202);
+}
+.titleMindHub:hover{
+
+    background-color: rgb(165, 201, 202);
+    color: rgb(44, 51, 51);
+    transition: all 0.2s ease-out;
+    
+    
+
+}
+.introName:hover{
+    transition: transform .2s;
+    transform: scale(1.03)!important;
+    
+
+}
+
+.cardAccounts{
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+      transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+  padding: 14px 80px 18px 36px;
+  cursor: pointer;
+}
+
+.cardAccounts:hover{
+     transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+.card{
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+
+}
+
+#navbar {
+    overflow: hidden;
+    padding: 6px 6px;
+    transition: 0.4s;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 99;
+}
+.headerShadow{
+    box-shadow: 11px 13px 16px -10px rgba(0,0,0,0.48);
+}
+
+.linksContact{
+    text-decoration: none;
+    color: white;
+}
+.linksContactFooter{
+    text-decoration: none;
+    color: white;
+}
+
+.linkNav {
+    background-image: linear-gradient(
+      to right,
+      rgb(246, 246, 246),
+      rgb(246, 246, 246) 50%,
+      rgb(255, 255, 255) 50%
+    );
+    background-size: 200% 100%;
+    background-position: -100%;
+    display: inline-block;
+    padding: 5px 0;
+    position: relative;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
+}
+  
+  .linkNav:before{
+    content: '';
+    background: rgb(246, 246, 246);
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .linkNav:hover {
+   background-position: 0;
+  }
+  
+  .linkNav:hover::before{
+    width: 100%;
+  }
+
+
+.contactDiv{
+    min-height: 45rem;
+    width: 80%;
+}
+.accountDiv{
+    min-height: 45rem;
+}
+.curve {
+    position: relative;
+    bottom: 70px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.curve svg {
+    position: relative;
+    display: block;
+    width: calc(133% + 1.3px);
+    height: 72px;
+}
+
+.curve .shape-fill {
+    fill: rgb(165, 201, 202);
+}
+.curve2{
+    position: relative;
+    top: 57px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.curve2 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 58px;
+}
+
+.curve2 .shape-fill {
+    fill: rgb(165, 201, 202);
+}
+
+.curve3{
+    position: absolute;
+    bottom: -1390px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.curve3 svg {
+    position: relative;
+    display: block;
+    width: calc(147% + 1.3px);
+    height: 50px;
+}
+
+.curve3 .shape-fill {
+    fill: #2D2424!important;
+}
+.backAccounts{
+    padding: 20px;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+.accordion-button{
+    background-color: rgb(44, 51, 51)!important;
+    border-radius: 0%!important;
+    border-color: rgb(44, 51, 51)!important;
+    color: rgb(165, 201, 202)!important;
+}
+.accordion{
+    --bs-accordion-border-color: none!important;
+}
+.btn{
+    background-color: rgb(44, 51, 51)!important;
+    color: rgb(165, 201, 202)!important;
+    
+}
+.btn:hover{
+    background-color: rgb(165, 201, 202)!important;
+    color: rgb(44, 51, 51)!important;
+    border-color: rgb(44, 51, 51)!important;
+    
+}
+
+@media screen and (max-width: 321px) {
+
+    .fontSizeBig{
+        font-size: larger;
+    }
+    footer div{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .linksContactMap{
+        display: none;
+    }
+    .directionResponsive{
+        flex-direction: column;
+    }
+    .bgImageCS{
+        display: none;
+    }
+    .textoContact{
+        font-size: 10px;
+        width: 99vw;
+    }
+    .contactDiv{
+        height: 40rem;
+    }
+    .bgRespnsive{
+        background-color: rgb(202, 228, 219);
+
+    }
+    .cardsResponsive{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .card{
+        width: 80%!important;
+
+    }
+    .cardContainer{
+        align-items: center;
+        align-content: space-around;
+    }
+    .accountsResponsive{
+        width: 100%!important;
+        margin: 0px!important;
+        justify-content: center;
+
+    }
+    .transfersDiv{
+        margin: 0!important;
+    }
+
+
+}
+
+@media screen and (max-width : 450px)  {
+
+    .fontSizeBig{
+        font-size: 40px;
+    }
+    .itemsLista{
+        flex-direction: column;
+    }
+    .loansDiv{
+        flex-direction: column;
+    }
+    .backAccounts{
+        padding: 0px!important;
+        
+    }
+    .card1Choose{
+        transform: scale(0.85);
+        display: block;
+    }
+    .form1{
+        font-size: small!important;
+    }
+    .divCreateCard{
+        align-items: center!important;
+        
+    }
+    .optionsCards{
+        text-align: center;
+        align-items: center;
+        transform: scale(0.90);
+    }
+    .transferInputs{
+        transform: scale(0.70);
+    }
+    .divTextContact{
+        width: 100%!important;
+    }
+    .linksContactMap{
+        display: none;
+    }
+    .divCards{
+        align-content: center!important;
+    }
+    .loanDiv{
+        align-content: center!important;
+
+    }
+    .cardAccounts{
+        transform: scale(0.90);
+    }
+    .data-card{
+        transform: scale(0.70);
+        
+    
+
+    }
+    .backAccounts{
+        margin-right: 1rem!important;
+        margin-left: 1rem!important;
+    }
+
+    
+}
+@media screen and (max-width : 375px)  {
+    .backAccounts{
+        width: auto;
+        margin: 0px!important;
+        justify-content: center;
+    }
+    .cardsAccounts{
+        padding: 4rem!important;
+    }
+    .optionsCards{
+        
+        transform: scale(0.70);
+    }
+}
+@media screen and (max-width : 320px)  {
+
+    .optionsCards{
+        
+        transform: scale(0.60);
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .accountDiv{
+        flex-wrap: wrap;
+        align-content: flex-start;
+
+    }
+    .accountsResponsive{
+        flex-wrap: wrap;
+        justify-content: center;
+        height: fit-content;
+    }
+   
+    .mainMinHeight{
+        min-height: 70rem;
+    }
+    .responsiveCards{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .optionsTitle{
+        text-align: center;
+    }
+    .optionsCards{
+        flex-direction: column;
+        align-items: center;
+    }
+    .chooseCardDiv{
+        flex-direction: column;
+    }
+    .card1Choose{
+        display: flex;
+        justify-content: center;
+        
+    }
+    .curve3
+    {
+        display: none;
+    }
+    .bgImageCS{
+        display: none;
+    }
+
+
+    
+    
+}
+@media screen and (max-width: 768px) {
+   .panel{
+        width: 20rem;
+        flex-wrap: wrap;
+    }
+
+   .mainMinHeightAccounts{
+        min-height: 115rem;
+    }
+    .loansDiv{
+        flex-wrap: wrap;
+    }
+    .textContactResponsive{
+        font-size: large;
+        
+
+    }
+    .bgImageCS{
+        display: none;
+    }
+    
+    
+    
+}
+
+
+
+.divCards {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+ .data-card {
+	 display: flex;
+	 flex-direction: column;
+	 max-width: 20.75em;
+	 min-height: 20.75em;
+	 overflow: hidden;
+	 border-radius: 0.5em;
+	 text-decoration: none;
+	 background: rgb(202, 228, 219);
+	 margin: 1em;
+	 padding: 2.75em 2.5em;
+	 box-shadow: 0 1.5em 2.5em -0.5em rgba(0, 0, 0, .1);
+	 transition: transform 0.45s ease, background 0.45s ease;
+}
+ .data-card h3 {
+	 color: #2e3c40;
+	 font-size: 3rem;
+	 font-weight: 600;
+	 line-height: 1;
+	 padding-bottom: 0.5em;
+	 margin: 0 0 0.142857143em;
+	 border-bottom: 2px solid rgb(165, 201, 202);
+	 transition: color 0.45s ease, border 0.45s ease;
+}
+ .data-card h4 {
+	 color: #627084;
+	 text-transform: uppercase;
+	 font-size: 1.125em;
+	 font-weight: 700;
+	 line-height: 1;
+	 letter-spacing: 0.1em;
+	 margin: 0 0 1.777777778em;
+	 transition: color 0.45s ease;
+}
+ .data-card p {
+	 opacity: 0;
+	 color: #fff;
+	 font-weight: 600;
+	 line-height: 1.8;
+	 margin: 0 0 1.25em;
+	 transform: translateY(-1em);
+	 transition: opacity 0.45s ease, transform 0.5s ease;
+}
+ .data-card .link-text {
+	 display: block;
+	 color: #212529;
+	 font-size: 1.125em;
+	 font-weight: 600;
+	 line-height: 1.2;
+	 margin: auto 0 0;
+	 transition: color 0.45s ease;
+}
+ .data-card .link-text svg {
+	 margin-left: 0.5em;
+	 transition: transform 0.6s ease;
+}
+ .data-card .link-text svg path {
+	 transition: fill 0.45s ease;
+}
+ .data-card:hover {
+	 background: rgb(165, 201, 202);
+	 transform: scale(1.02);
+}
+ .data-card:hover h3 {
+	 color: #fff;
+	 border-bottom-color: rgb(165, 201, 202);
+}
+ .data-card:hover h4 {
+	 color: #fff;
+}
+ .data-card:hover p {
+	 opacity: 1;
+	 transform: none;
+}
+ .data-card:hover .link-text {
+	 color: #fff;
+}
+ .data-card:hover .link-text svg {
+	 animation: point 1.25s infinite alternate;
+}
+ .data-card:hover .link-text svg path {
+	 fill: #fff;
+}
+ @keyframes point {
+	 0% {
+		 transform: translateX(0);
+	}
+	 100% {
+		 transform: translateX(0.125em);
+	}
+}
+@import url('https://fonts.googleapis.com/css?family=Space+Mono:400,400i,700,700i');
+
+
+
+
+.card1{
+width: 320px;
+height: 190px;
+  -webkit-perspective: 600px;
+  -moz-perspective: 600px;
+  perspective:600px;
+  
+}
+
+.card1__part{
+  box-shadow: 1px 1px #aaa3a3;
+    top: 0;
+  position: absolute;
+z-index: 1000;
+  left: 0;
+  display: inline-block;
+    width: 320px;
+    height: 190px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 8px;
+    background-color: #212529;
+   
+    -webkit-transition: all .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    -moz-transition: all .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    -ms-transition: all .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    -o-transition: all .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition: all .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+}
+.card1_silver{
+    background-image: url('https://image.ibb.co/bVnMrc/g3095.png'), linear-gradient(to right bottom, #6e6e6e, #6e6e6e, #6e6e6e, #6e6e6e, #6e6e6e); /*linear-gradient(to right bottom, #fd8369, #fc7870, #f96e78, #f56581, #ee5d8a)*/
+
+}
+.card1_gold{
+    background-image: url('https://image.ibb.co/bVnMrc/g3095.png'), linear-gradient(to right bottom, #d3b509, #d3b509, #d3b509, #d3b509, #d3b509); /*linear-gradient(to right bottom, #fd8369, #fc7870, #f96e78, #f56581, #ee5d8a)*/
+
+
+}
+.card1_titanium{
+    background-image: url('https://image.ibb.co/bVnMrc/g3095.png'), linear-gradient(to right bottom, #4a7d8d, #4a7d8d, #4a7d8d, #4a7d8d, #4a7d8d); /*linear-gradient(to right bottom, #fd8369, #fc7870, #f96e78, #f56581, #ee5d8a)*/
+
+}
+
+.card1__front{
+  padding: 18px;
+-webkit-transform: rotateY(0);
+-moz-transform: rotateY(0);
+}
+
+.card1__back {
+  padding: 18px 0;
+-webkit-transform: rotateY(-180deg);
+-moz-transform: rotateY(-180deg);
+}
+
+.card1__black-line {
+    margin-top: 5px;
+    height: 38px;
+    background-color: #303030;
+}
+
+.card1__logo {
+    height: 16px;
+}
+
+.card1__front-logo{
+      position: absolute;
+    top: 18px;
+    right: 18px;
+}
+.card1__square {
+    border-radius: 5px;
+    height: 30px;
+}
+
+.card1_numer {
+    display: block;
+    width: 100%;
+    word-spacing: 4px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.card1__space-75 {
+    width: 75%;
+    float: left;
+}
+
+.card1__space-25 {
+    width: 25%;
+    float: left;
+}
+
+.card1__label {
+    font-size: 10px;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.8);
+    letter-spacing: 1px;
+}
+
+.card1__info {
+    margin-bottom: 0;
+    margin-top: 5px;
+    font-size: 16px;
+    line-height: 18px;
+    color: #fff;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.card1__back-content {
+    padding: 15px 15px 0;
+}
+.card1__secret--last {
+    color: #303030;
+    text-align: right;
+    margin: 0;
+    font-size: 14px;
+}
+
+.card1__secret {
+    padding: 5px 12px;
+    background-color: #fff;
+    position:relative;
+}
+
+.card1__secret:before{
+  content:'';
+  position: absolute;
+top: -3px;
+left: -3px;
+height: calc(100% + 6px);
+width: calc(100% - 42px);
+border-radius: 4px;
+  background: repeating-linear-gradient(45deg, #ededed, #ededed 5px, #f9f9f9 5px, #f9f9f9 10px);
+}
+
+.card1__back-logo {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+}
+
+.card1__back-square {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+}
+
+.card1:hover .card1__front {
+    transform: rotateY(180deg);
+    transform: rotateY(180deg);
+
+}
+
+.card1:hover .card1__back {
+    transform: rotateY(0deg);
+    transform: rotateY(0deg);
+}
+
+.go-corner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    overflow: hidden;
+    top: 0;
+    right: 0;
+    background-color: rgb(165, 201, 202);
+    border-radius: 0 4px 0 32px;
+}
+.go-arrow {
+    margin-top: -4px;
+    margin-right: -4px;
+    color: rgb(165, 201, 202);
+    font-family: courier, sans;
+}
+.cardI {
+    display: block;
+    position: relative;
+    max-width: 262px;
+    background-color: rgb(44, 51, 51);
+    border-radius: 4px;
+    padding: 32px 24px;
+    margin: 12px;
+    text-decoration: none;
+    z-index: 0;
+    overflow: hidden;
+}
+.cardI:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: -16px;
+    right: -16px;
+    background: rgb(165, 201, 202);
+    height: 32px;
+    width: 32px;
+    border-radius: 32px;
+    transform: scale(1);
+    transform-origin: 50% 50%;
+    transition: transform 0.25s ease-out;
+}
+.cardI:hover:before {
+    transform: scale(21);
+}
+.cardI:hover p {
+    transition: all 0.3s ease-out;
+    color: rgb(44, 51, 51);
+}
+.cardI:hover h3 {
+    transition: all 0.3s ease-out;
+    color: rgb(44, 51, 51);
+}
+
+ 
+input[type=radio] {
+	 position: absolute;
+	 visibility: hidden;
+	 display: none;
+}
+label {
+	 color: rgb(165, 201, 202);
+	 display: inline-block;
+	 cursor: pointer;
+	 padding: 5px 20px;
+}
+input[type=radio]:checked + label {
+	 color: rgb(44, 51, 51);
+	 background: rgb(165, 201, 202);
+}
+label + input[type=radio] + label {
+	 border-left: solid 3px rgb(165, 201, 202);
+}
+.radio-group {
+	 border: solid 3px rgb(165, 201, 202);
+	 display: inline-block;
+	 margin: 20px;
+	 border-radius: 10px;
+	 overflow: hidden;
+}
+ 
+
+
+
+
+
+
+ 
+
+

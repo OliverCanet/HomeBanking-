@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="shortcut icon" href="https://mindhubweb.com/salesforce/static/media/Logo%20blanco.be8cf02e.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <title>Homebanking - Manager</title>
+</head>
+<body class="bgColor1" id="app">
+<header>
+    <h1 class="text-center bgColor3 text-white p-3">
+        Homebanking - MindHub
+    </h1>
+</header>
+<main class="mainMinHeight">
+    <div class="d-flex container">
+
+        <div class="container">
+
+            <h1 class="">Clients Manager</h1>
+
+            <form class="d-flex flex-column" role="search" >
+                <div >
+                    <label for="name">Nombre:</label>
+                    <input id="name" v-model="name" class="form-control me-2 searchMedidas" type="search" placeholder="Nombre" aria-label="Search" required>
+
+                </div>
+                <div >
+                    <label for="lastName">Apellido: </label>
+                    <input id="lastName" v-model="lastName" class="form-control me-2 searchMedidas" type="search" placeholder="Apellido" aria-label="Search" required>
+
+                </div>
+                <div >
+                    <label for="email">Email:</label>
+                    <input id="searchBar" v-model="email" class="form-control me-2 searchMedidas" type="search" placeholder="Email" aria-label="Search" required>
+
+                </div>
+                <button @click="agregarCliente()" type="submit" class="btn btn-outline-success mt-2 subMedidas">Add Client</button>
+
+            </form>
+
+            <h2>Client List</h2>
+
+            <table class="container table table-striped-columns">
+                <tbody>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Apellido</th>
+                    <th>Email</th>
+                </tr>
+                <tr v-for="cliente of clientes">
+                    <th>{{cliente.firstName}}</th>
+                    <th>{{cliente.lastName}}</th>
+                    <th>{{cliente.email}}</th>
+                    <th><button type="button" class="btn-close" aria-label="Close" @click="eliminarCliente(cliente)"></button></th>
+
+                </tr>
+                </tbody>
+            </table>
+
+            </template>
+        </div>
+        <div>
+
+            <pre>{{this.clientes}}</pre>
+        </div>
+    </div>
+
+</main>
+<footer>
+    <div class="bgColor4 p-3">
+        <h4 class="text-center text-white">MindHub Homebanking</h4>
+    </div>
+</footer>
+
+
+
+
+<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="./assets/main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+</html>
